@@ -1,0 +1,11 @@
+.red {
+  color: #e63946; /* Your brand red */
+}
+.hero-bg {
+  min-height: 70vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+   
+}
