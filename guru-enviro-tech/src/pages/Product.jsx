@@ -23,7 +23,7 @@ export default function Product() {
                 <div className="ratio ratio-4x3">
                   <Card.Img
                     variant="top"
-                    src="/public/product-1.png"
+                    src="/product-1.png"
                     alt="Fly Control Microbial Mix"
                     className="object-fit-cover"
                   />
@@ -49,7 +49,7 @@ export default function Product() {
                 <div className="ratio ratio-4x3">
                   <Card.Img
                     variant="top"
-                    src="/public/product-2.png"
+                    src="/product-2.png"
                     alt="Fly Control Liquid Solution"
                     className="object-fit-cover"
                   />
@@ -75,7 +75,7 @@ export default function Product() {
                 <div className="ratio ratio-4x3">
                   <Card.Img
                     variant="top"
-                    src="/public/product-3.jpg"
+                    src="/product-3.jpg"
                     alt="Fly Control Concentrate"
                     className="object-fit-cover"
                   />
