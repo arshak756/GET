@@ -28,9 +28,9 @@ export default function Footer() {
          
           <Col md={4} className="mb-3">
             <h6 className="fw-bold">Contact</h6>
-            <p className="small mb-1">📍 Erode, Tamil Nadu, India</p>
-            <p className="small mb-1">📞 +91 98765 43210</p>
-            <p className="small">✉️ info@guruenvirotech.com</p>
+            <p className="small mb-1"> Erode, Tamil Nadu, India</p>
+            <p className="small mb-1"> +91 98765 43210</p>
+            <p className="small"> info@guruenvirotech.com</p>
           </Col>
         </Row>
 

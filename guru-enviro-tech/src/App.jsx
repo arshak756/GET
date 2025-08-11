@@ -6,6 +6,7 @@ import './styles/Home.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Product from './pages/Product';
+import Research from './pages/Research';
 import Testimonials from './pages/Testimonials';
 import Contactus from './pages/Contactus';
 import Footer from './components/Footer';
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Product />} />
+          <Route path="/research" element={<Research />} />
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/contactus" element={<Contactus />} />
         </Routes>

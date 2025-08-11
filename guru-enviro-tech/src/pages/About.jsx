@@ -29,7 +29,7 @@ export default function About() {
         <Container>
           <Row className="align-items-center">
             <Col md={6}>
-              <h2 style={{ color: "var(--primary-red)" }}>Who We Are</h2>
+              <h2 style={{ color: "var(--primary-blue)" }}>Who We Are</h2>
               <p style={{ textAlign: "justify" }}>
                 Guru Enviro Tech is a pioneering agro-environmental solutions
                 company specializing in advanced microbial technology for poultry
@@ -70,7 +70,7 @@ export default function About() {
         <Container>
           <Row className="align-items-center">
             <Col md={6} className="order-md-2">
-              <h2 style={{ color: "var(--primary-red)" }}>Our Work</h2>
+              <h2 style={{ color: "var(--primary-blue)" }}>Our Work</h2>
               <p style={{ textAlign: "justify" }}>
                 Our work focuses on solving poultry farm hygiene problems at the
                 root. We design targeted microbial solutions that restore balance
@@ -109,7 +109,7 @@ export default function About() {
         <Container>
           <Row className="align-items-center">
             <Col md={6}>
-              <h2 style={{ color: "var(--primary-red)" }}>The Team</h2>
+              <h2 style={{ color: "var(--primary-blue)" }}>The Team</h2>
               <p style={{ textAlign: "justify" }}>
                 Our team is made up of microbiologists, agricultural engineers,
                 field technicians, and customer service experts — all working
@@ -148,7 +148,7 @@ export default function About() {
         <Container>
           <Row className="align-items-center">
             <Col md={6} className="order-md-2">
-              <h2 style={{ color: "var(--primary-red)" }}>Focused Areas</h2>
+              <h2 style={{ color: "var(--primary-blue)" }}>Focused Areas</h2>
               <p style={{ textAlign: "justify" }}>
                 We focus on Featured Solutions, Operations Hub, and R&D to
                 deliver high-quality, eco-friendly products. Our flagship

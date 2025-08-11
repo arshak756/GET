@@ -27,7 +27,7 @@ export default function MyNavbar() {
               <span style={{ color: "var(--primary-red)" }}>T</span>
               <span style={{ color: "var(--primary-blue)" }}>ECH</span>
             </div>
-            <div style={{ fontSize: "0.8rem", color: "var(--primary-blue)" }} className="fw-semibold">
+            <div style={{ fontSize: "0.8rem", color: "var(--primary-black)" }} className="fw-semibold">
             GET POLLUTION’S SOLUTION
             </div>
           </div>
@@ -42,6 +42,7 @@ export default function MyNavbar() {
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/about">About Us</Nav.Link>
             <Nav.Link as={Link} to="/products">Products</Nav.Link>
+             <Nav.Link as={Link} to="/research">Research</Nav.Link>
             <Nav.Link as={Link} to="/testimonials">Testimonials</Nav.Link>
             <Nav.Link as={Link} to="/contactus">Contact Us</Nav.Link>
           </Nav>
