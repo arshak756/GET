@@ -5,17 +5,17 @@ export default function FeaturedProducts() {
     {
       title: "FLY CONTROL BASE SOLUTION MS",
       desc: "Biological formula to reduce flies in poultry farms naturally.",
-      img: "/public/product-1.png",
+      img: "/product-1.png",
     },
     {
       title: "ADULT FLY TARGET FUNGI STRAIN S1",
       desc: "Eco-safe product that eliminates poultry shed odors efficiently.",
-      img: "/public/product-2.png",
+      img: "/product-2.png",
     },
     {
       title: "FLY LARVAE TARGET BACKTERIA STRAIN",
       desc: "Improves gut health and immunity in poultry livestock.",
-      img: "/public/product-3.jpg",
+      img: "/product-3.jpg",
     },
   ];
 
