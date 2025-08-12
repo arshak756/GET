@@ -4,12 +4,7 @@ export default function AboutPreview() {
   return (
     <section className="py-5">
       <Container>
-        <h2
-          className="text-center mb-5 text-danger"
-          style={{ fontWeight: "600", fontSize: "2.5rem" }}
-        >
-          Who We Are
-        </h2>
+        
         <Row className="align-items-center justify-content-around">
           <Col md={6} className="mb-4 mb-md-0">
             <p className="mb-3 fs-5 ">

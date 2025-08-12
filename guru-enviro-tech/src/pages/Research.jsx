@@ -2,17 +2,17 @@ import { Row, Col } from "react-bootstrap";
 
 export default function Research() {
   return (
-    <div className="mt-5 pt-4">
-      <section className="py-5 ">
+    <div className="pt-2">
+      <section className="py-5">
         <div className="container">
           <h1 className="fw-bold text-danger text-center mb-5">
             Research & Development
           </h1>
 
-         
+          {/* Section 1 */}
           <Row className="align-items-center mb-5">
             <Col md={6}>
-               <div
+              <div
                 style={{
                   height: "300px",
                   backgroundColor: "#e9ecef",
@@ -28,23 +28,31 @@ export default function Research() {
               </div>
             </Col>
             <Col md={6}>
-              <h3 className="fw-bold text-primary">Innovating for a Sustainable Future</h3>
+              <h3 className="fw-bold text-primary">
+                Innovating for a Sustainable Future
+              </h3>
               <p className="mt-3">
-                At Guru Enviro Tech, our R&D team is constantly working to develop
-                innovative microbial solutions for pollution control, waste
-                management, and sustainable farming. Our mission is to create
-                eco-friendly products that deliver measurable results while
-                reducing environmental impact.
+                At <strong>Guru Enviro Tech (GET)</strong>, innovation is at the
+                heart of everything we do. Our R&D division focuses on creating{" "}
+                <strong>eco-friendly microbial formulations</strong> for
+                agriculture, poultry, and environmental management. Each strain
+                we develop — including <em>Adult Fly Target Fungi S1</em> and{" "}
+                <em>Fly Larvae Target Bacteria S3</em> — is scientifically
+                engineered to solve real-world problems such as{" "}
+                <strong>fly control, odour suppression, efficient waste
+                decomposition, soil fertility restoration, and pest/disease
+                management</strong>.
               </p>
               <p>
-                We invest heavily in laboratory testing, field trials, and
-                collaborative research with agricultural experts to ensure every
-                product we launch meets the highest quality standards.
+                By combining <strong>in-house laboratory research</strong> with{" "}
+                <strong>practical field insights</strong>, we deliver solutions
+                that are safe, scalable, and tailored to the unique challenges
+                faced by farmers and industries.
               </p>
             </Col>
           </Row>
 
-         
+          {/* Section 2 */}
           <Row className="align-items-center mb-5 flex-md-row-reverse">
             <Col md={6}>
               <div
@@ -63,26 +71,38 @@ export default function Research() {
               </div>
             </Col>
             <Col md={6}>
-              <h3 className="fw-bold text-primary">Field Testing & Real-World Results</h3>
+              <h3 className="fw-bold text-primary">
+                Field Testing & Proven Performance
+              </h3>
               <p className="mt-3">
-                Our research doesn’t end in the lab. We conduct real-world
-                field testing on active poultry farms to measure performance
-                under practical conditions. This ensures our solutions not only
-                work in controlled environments but also deliver consistent
-                results for farmers.
+                Every GET product undergoes{" "}
+                <strong>extensive field trials</strong> before launch. We partner
+                with poultry farms and crop fields across{" "}
+                <strong>
+                  Tamil Nadu, Karnataka, Andhra Pradesh, Kerala, Telangana,
+                  Odisha, and West Bengal
+                </strong>{" "}
+                to evaluate product performance under practical farming
+                conditions.
               </p>
               <p>
-                Each trial is monitored by our technical team, who collect
-                detailed data on fly population, odour levels, and farm hygiene
-                improvements over time.
+                Our technical team closely monitors{" "}
+                <strong>
+                  fly population changes, odour levels (NH₃, H₂S), waste
+                  breakdown rates
+                </strong>{" "}
+                and overall hygiene improvements. Continuous feedback from these
+                trials fuels rapid refinement, ensuring{" "}
+                <em>98.6% fly control efficiency</em> and{" "}
+                <em>96% eco-friendliness</em> in farm environments.
               </p>
             </Col>
           </Row>
 
-          
+          {/* Section 3 */}
           <Row className="align-items-center mb-5">
             <Col md={6}>
-               <div
+              <div
                 style={{
                   height: "300px",
                   backgroundColor: "#e9ecef",
@@ -100,15 +120,24 @@ export default function Research() {
             <Col md={6}>
               <h3 className="fw-bold text-primary">Future Developments</h3>
               <p className="mt-3">
-                We are working on expanding our product range to tackle
-                challenges beyond poultry farming — including dairy waste
-                treatment, aquaculture hygiene, and organic farming pest
-                management.
+                Our journey of innovation is far from over. Current projects in
+                the pipeline include{" "}
+                <strong>
+                  microbial solutions for dairy farm waste treatment, aquaculture
+                  hygiene management, and organic farming pest control
+                </strong>
+                . These new products aim to further reduce chemical dependency
+                while boosting farm productivity.
               </p>
               <p>
-                Our long-term goal is to become a global leader in sustainable
-                agricultural solutions, empowering farmers to improve productivity
-                without harming the planet.
+                With a clear vision to become a{" "}
+                <strong>global leader in sustainable agricultural technology</strong>,
+                GET continues to invest in{" "}
+                <strong>
+                  advanced biotech research, expert collaborations, and
+                  farmer‑centric innovation
+                </strong>{" "}
+                to tackle tomorrow’s environmental challenges.
               </p>
             </Col>
           </Row>
@@ -117,5 +146,3 @@ export default function Research() {
     </div>
   );
 }
-
-

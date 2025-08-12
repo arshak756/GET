@@ -2,7 +2,7 @@ import { Row, Col } from "react-bootstrap";
 
 export default function Testimonials() {
   return (
-    <div className="mt-5 pt-4">
+    <div className=" pt-2">
       <section className="py-5">
         <div className="container">
           <h1 className="fw-bold text-danger text-center mb-5">

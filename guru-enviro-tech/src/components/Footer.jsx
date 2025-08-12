@@ -20,7 +20,7 @@ export default function Footer() {
             <ul className="list-unstyled small">
               <li><a href="/" className="text-white text-decoration-none">Home</a></li>
               <li><a href="/about" className="text-white text-decoration-none">About Us</a></li>
-              <li><a href="/products" className="text-white text-decoration-none">Products</a></li>
+              <li><a href="/featuredsolutions" className="text-white text-decoration-none">Featuredsolutions</a></li>
               <li><a href="/contactus" className="text-white text-decoration-none">Contact</a></li>
             </ul>
           </Col>

@@ -5,7 +5,7 @@ import "../styles/Navbar.css";
 
 export default function MyNavbar() {
   return (
-    <Navbar expand="lg" variant="light" fixed="top" className="shadow-sm py-2">
+    <Navbar expand="lg" variant="light" sticky="top" className="shadow-sm py-2">
       <Container>
     
         <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
@@ -41,7 +41,7 @@ export default function MyNavbar() {
           <Nav className="ms-auto fw-semibold">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/about">About Us</Nav.Link>
-            <Nav.Link as={Link} to="/products">Products</Nav.Link>
+            <Nav.Link as={Link} to="/featuredsolutions">Featuredsolutions</Nav.Link>
              <Nav.Link as={Link} to="/research">Research</Nav.Link>
             <Nav.Link as={Link} to="/testimonials">Testimonials</Nav.Link>
             <Nav.Link as={Link} to="/contactus">Contact Us</Nav.Link>

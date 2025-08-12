@@ -10,17 +10,17 @@ export default function WhyChooseUs() {
   return (
     <section className="py-5 bg-white">
       <Container className="text-center">
-        {/* Heading */}
+        
         <h2 className="fw-bold text-danger mb-3">Why Choose Us</h2>
 
-        {/* Subheading / Quote */}
+       
         <p className="text-muted mb-4" style={{ maxWidth: "700px", margin: "0 auto" }}>
           "Revolutionizing fly control and sustainability in poultry farming with innovative microbial solutions."
         </p>
 
        
 
-        {/* Stats */}
+       
         <Row className="justify-content-center">
           {stats.map((stat, idx) => (
             <Col key={idx} xs={12} md={4} className="mb-4">
