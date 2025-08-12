@@ -4,13 +4,13 @@ export default function ProductCard({ image, title, description }) {
   return (
     <Card
       className="shadow-lg border-0 rounded-4 text-center m-3 "
-      style={{ width: "350px", minHeight: "450px" }}  // increased size here
+      style={{ width: "350px", minHeight: "450px" }}  
     >
       <div
         className="d-flex justify-content-center align-items-center p-3"
         style={{
           background: "#fff",
-          height: "300px",  // increased image container height
+          height: "300px", 
         }}
       >
         <Card.Img

@@ -9,7 +9,7 @@ export default function Research() {
             Research & Development
           </h1>
 
-          {/* Section 1 */}
+          
           <Row className="align-items-center mb-5">
             <Col md={6}>
               <div
@@ -52,7 +52,7 @@ export default function Research() {
             </Col>
           </Row>
 
-          {/* Section 2 */}
+          
           <Row className="align-items-center mb-5 flex-md-row-reverse">
             <Col md={6}>
               <div
@@ -99,7 +99,7 @@ export default function Research() {
             </Col>
           </Row>
 
-          {/* Section 3 */}
+          
           <Row className="align-items-center mb-5">
             <Col md={6}>
               <div
