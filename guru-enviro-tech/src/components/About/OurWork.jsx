@@ -4,7 +4,7 @@ export default function OurWork() {
   return (
     <section className="py-5">
       <Container>
-        <Row className="align-items-center">
+        <Row className="align-items-center g-5">
           <Col md={6} className="order-md-2">
             <h2 style={{ color: "var(--primary-blue)", fontWeight: "700" }}>
               Our Work
@@ -14,20 +14,17 @@ export default function OurWork() {
             </p>
           </Col>
           <Col md={6} className="order-md-1">
-            <div
+            <img
+              src="/about-2.png" 
+              alt="Our Work"
               style={{
+                width: "100%",
                 height: "300px",
-                backgroundColor: "#e9ecef",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+                objectFit: "cover",
                 borderRadius: "8px",
-                fontWeight: "bold",
-                color: "#6c757d",
+                
               }}
-            >
-              Image Coming Soon
-            </div>
+              ></img>
           </Col>
         </Row>
       </Container>

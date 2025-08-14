@@ -4,7 +4,7 @@ export default function WhoWeAreSection() {
   return (
     <section className="py-5">
       <Container>
-        <Row className="align-items-center">
+        <Row className="align-items-center g-5">
           <Col md={6}>
             <h2 style={{ color: "var(--primary-blue)", fontWeight: "700" }}>
               Who We Are
@@ -17,25 +17,20 @@ export default function WhoWeAreSection() {
               We offer biofertilizers, EM solutions, decomposers, pest control,
               and fly management for poultry farms. Our eco-friendly microbial
               technologies benefit farmers while creating employment for local
-              communities. Our services span Tamil Nadu, Karnataka, Andhra
-              Pradesh, Kerala, Telangana, Odisha, and West Bengal.
+              communities.
             </p>
           </Col>
           <Col md={6}>
-            <div
+            <img
+              src="/who-we-are.jpg" // ✅ Image from public folder
+              alt="Who We Are"
               style={{
+                width: "100%",
                 height: "300px",
-                backgroundColor: "#e9ecef",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+                objectFit: "cover",
                 borderRadius: "8px",
-                fontWeight: "bold",
-                color: "#6c757d",
               }}
-            >
-              Image Coming Soon
-            </div>
+            />
           </Col>
         </Row>
       </Container>

@@ -37,7 +37,7 @@ export default function HeroSection() {
             <div
               style={{
                 height: "55vh",
-                background: `linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(${img}) center/cover no-repeat`,
+                background: ` url(${img}) center/cover no-repeat`,
                 display: "flex",
                 alignItems: "center",
               }}
@@ -52,7 +52,7 @@ export default function HeroSection() {
                   className="px-4 py-2 rounded-pill"
                   onClick={() => navigate("/featuredsolutions")}
                 >
-                  Learn More
+                  View Products
                 </Button>
               </Container>
             </div>

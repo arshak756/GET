@@ -2,40 +2,42 @@ import { Row, Col } from "react-bootstrap";
 
 export default function Research() {
   return (
-    <div className="pt-2">
+    <div className="pt-2 ">
       <section className="py-5">
         <div className="container">
           <h1 className=" text-danger text-center mb-5">
             Research & Development
           </h1>
 
-          <Row className="align-items-center mb-5">
+          <Row className="align-items-center mb-5 g-5">
             <Col md={6}>
-              <div
-                style={{
-                  height: "300px",
-                  backgroundColor: "#e9ecef",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  borderRadius: "8px",
-                  fontWeight: "bold",
-                  color: "#6c757d",
-                }}
-              >
-                Image Coming Soon
-              </div>
+              <img
+              src="/research-1.png" 
+              alt="Our Work"
+              style={{
+                width: "100%",
+                height: "300px",
+                objectFit: "cover",
+                borderRadius: "8px",
+                
+              }}
+              ></img>
             </Col>
             <Col md={6}>
-              <h3 className=" text-primary">Innovating for a Sustainable Future</h3>
+              <h3 className=" text-primary">
+                Innovating for a Sustainable Future
+              </h3>
               <p className="mt-3" style={{ textAlign: "justify" }}>
-                Guru Enviro Tech (GET) drives innovation with eco-friendly microbial formulations for agriculture, poultry, and environmental management. Our scientifically engineered strains, such as Adult Fly Target Fungi S1 and Fly Larvae Target Bacteria S3, address fly control, odor suppression, efficient waste decomposition, soil fertility restoration, and pest/disease management. By combining in-house research with practical field insights, we create safe, scalable solutions tailored to farmers' and industries' unique challenges.
+                We develop advanced microbial solutions like S1 fungi and S3
+                bacteria. They control flies, suppress odor, and speed up waste
+                decomposition. Our work improves soil health, farm hygiene, and
+                productivity. All solutions are eco-friendly and tailored to
+                farmers’ needs.
               </p>
-              
             </Col>
           </Row>
 
-          <Row className="align-items-center mb-5 flex-md-row-reverse">
+          <Row className="align-items-center mb-5 flex-md-row-reverse g-5">
             <Col md={6}>
               <div
                 style={{
@@ -45,7 +47,7 @@ export default function Research() {
                   alignItems: "center",
                   justifyContent: "center",
                   borderRadius: "8px",
-                  
+
                   color: "#6c757d",
                 }}
               >
@@ -55,7 +57,40 @@ export default function Research() {
             <Col md={6}>
               <h3 className=" text-primary">Future Developments</h3>
               <p className="mt-3" style={{ textAlign: "justify" }}>
-                Our innovation journey continues with projects focused on microbial solutions for dairy farm waste treatment, aquaculture hygiene, and organic farming pest control to reduce chemical dependency and enhance productivity. With a clear vision to be a global leader in sustainable agricultural technology, GET invests in advanced biotech research, expert collaborations, and farmer-centric innovations to meet tomorrow’s environmental challenges.
+                We are expanding microbial solutions into dairy farm waste
+                treatment and organic farming pest control. The aim is to reduce
+                chemical use and enhance farm productivity. We invest in
+                biotechnology research and expert partnerships. Our vision is to
+                be a global leader in sustainable agricultural technology.
+              </p>
+            </Col>
+          </Row>
+
+          <Row className="align-items-center mb-5 g-5">
+            <Col md={6}>
+             <img
+              src="/research-3.png" 
+              alt="Our Work"
+              style={{
+                width: "100%",
+                height: "300px",
+                objectFit: "cover",
+                borderRadius: "8px",
+                
+              }}
+              ></img>
+            </Col>
+            <Col md={6}>
+              <h3 className=" text-primary">
+                Commitment to Community & Environment
+              </h3>
+              <p className="mt-3" style={{ textAlign: "justify" }}>
+                We improve public sanitation and protect natural resources
+                through sustainable microbial solutions. Our work empowers poor
+                and marginalized farmers for better livelihoods. By reducing
+                pollution, we create healthier farms and cleaner communities.
+                Science meets grassroots action for lasting environmental
+                impact.
               </p>
             </Col>
           </Row>

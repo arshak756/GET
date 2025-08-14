@@ -1,6 +1,9 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 export default function AboutPreview() {
+    const navigate = useNavigate();
+
   return (
     <section className="py-5 ">
       <Container>
@@ -21,8 +24,8 @@ export default function AboutPreview() {
               promoting a healthier planet.
             </p>
             <Button
-              variant="outline-primary"
-              href="/about"
+              variant="outline-danger"
+               onClick={() => navigate("/about")}
               className="mt-3"
               style={{
                 borderRadius: "30px",

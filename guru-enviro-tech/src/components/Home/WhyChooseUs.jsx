@@ -26,8 +26,8 @@ export default function WhyChooseUs() {
 
   return (
     <section style={{ backgroundColor: "#fff", padding: "60px 0" }}>
-      <Container>
-        <Row className="align-items-center g-4">
+      <Container className="">
+        <Row className="align-items-center g-4 ">
           
          
           <Col md={5}>
@@ -86,7 +86,7 @@ export default function WhyChooseUs() {
                 <Col key={idx} xs={12} sm={4}>
                   <div
                     style={{
-                      backgroundColor: "#0d2d58",
+                      backgroundColor: " var(--primary-blue)",
                       borderRadius: "20px",
                       textAlign: "center",
                       padding: "20px 15px",
@@ -115,7 +115,7 @@ export default function WhyChooseUs() {
                     </div>
                     <p
                       style={{
-                        color: "#d1d5db",
+                        color: "white",
                         fontSize: "0.85rem",
                         marginTop: "6px",
                       }}

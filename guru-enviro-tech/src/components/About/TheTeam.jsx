@@ -4,7 +4,7 @@ export default function TheTeam() {
   return (
     <section className="py-5">
       <Container>
-        <Row className="align-items-center">
+        <Row className="align-items-center g-5">
           <Col md={6}>
             <h2 style={{ color: "var(--primary-blue)", fontWeight: "700" }}>
               The Team
@@ -14,20 +14,17 @@ export default function TheTeam() {
             </p>
           </Col>
           <Col md={6}>
-            <div
+             <img
+              src="/about-3.png" 
+              alt="Our Work"
               style={{
+                width: "100%",
                 height: "300px",
-                backgroundColor: "#e9ecef",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+                objectFit: "cover",
                 borderRadius: "8px",
-                fontWeight: "bold",
-                color: "#6c757d",
+                
               }}
-            >
-              Image Coming Soon
-            </div>
+              ></img>
           </Col>
         </Row>
       </Container>
