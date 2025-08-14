@@ -13,11 +13,7 @@ export default function FocusedAreas() {
               Focused Areas
             </h2>
             <p style={{ textAlign: "justify" }}>
-              At <strong>Guru Enviro Tech</strong>, our expertise is centered on three
-              core sectors — <strong>Agriculture, Environment, and Poultry Farms</strong>.
-              Through innovative microbial technologies and sustainable practices,
-              we deliver solutions that protect the environment while boosting
-              productivity for farmers and industries.
+              Guru Enviro Tech focuses on Agriculture, Environment, and Poultry Farms, delivering sustainable microbial solutions for soil health, waste management, and fly control. Our innovations protect the environment, enhance productivity, and promote healthier conditions for farmers, livestock, and industries alike.
             </p>
             <button
               className="btn btn-outline-primary mt-3"

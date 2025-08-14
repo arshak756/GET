@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <section className="text-center">
       <Container>
-        <h1 className="fw-bold" style={{ color: "var(--primary-red)" }}>
+        <h1 style={{ color: "var(--primary-red)", }}>
           Our Fly Control Products
         </h1>
         <p className="lead mt-3">

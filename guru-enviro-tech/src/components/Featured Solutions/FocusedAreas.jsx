@@ -41,9 +41,9 @@ export default function FocusedAreas() {
   return (
     <section className="py-5">
       <Container>
-        <h2 style={{ color: "var(--primary-red)" }} className="mb-4 text-center">
+        <h1 style={{ color: "var(--primary-red)",  }} className="mb-4 text-center">
           Our Solutions
-        </h2>
+        </h1>
         {areas.map((area, idx) => (
           <Row className="align-items-center mb-5" key={idx}>
             <Col md={6} className={idx % 2 !== 0 ? "order-md-2" : ""}>

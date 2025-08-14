@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function WhoWeAreSection() {
   return (
-    <section className="py-5" >
+    <section className="py-5">
       <Container>
         <Row className="align-items-center">
           <Col md={6}>
@@ -10,25 +10,15 @@ export default function WhoWeAreSection() {
               Who We Are
             </h2>
             <p style={{ textAlign: "justify" }}>
-              Founded in April 2018 in Sathiyamangalam, <strong>Guru Enviro Tech</strong> began
-              as a small biofertilizer manufacturing unit with a mission to
-              deliver sustainable solutions for <strong>agriculture, poultry farms, and waste management</strong>.
-              Over the years, we have evolved into a leader in <strong>innovative microbial technology</strong>,
-              revolutionizing fly control, sanitation, and environmental health in farming communities.
-            </p>
-            <p style={{ textAlign: "justify" }}>
-              Guided by our motto <strong>“GET – Pollution’s Solution”</strong>, we are committed
-              to improving public sanitation, safeguarding livestock health, and helping
-              farmers enhance productivity through safe, eco-friendly, and scientifically
-              proven solutions. Our focus areas include <em>biofertilizers, EM solutions,
-              decomposers, nutrient enhancers, pest control, growth promotors, disease
-              management, and complete waste treatment systems</em>.
-            </p>
-            <p style={{ textAlign: "justify" }}>
-              Today, our services have been successfully implemented in states including
-              Tamil Nadu, Karnataka, Andhra Pradesh, Kerala, Telangana, Odisha, and West Bengal —
-              positively impacting hundreds of farms while creating local employment and
-              promoting sustainable agriculture.
+              Guru Enviro Tech, founded in April 2018 in Sathiyamangalam, began
+              as a small biofertilizer unit supporting farmers and poultry farms.
+              Guided by our motto “GET – Pollution’s Solution”, we focus on
+              sustainable agriculture, waste management, and public sanitation.
+              We offer biofertilizers, EM solutions, decomposers, pest control,
+              and fly management for poultry farms. Our eco-friendly microbial
+              technologies benefit farmers while creating employment for local
+              communities. Our services span Tamil Nadu, Karnataka, Andhra
+              Pradesh, Kerala, Telangana, Odisha, and West Bengal.
             </p>
           </Col>
           <Col md={6}>

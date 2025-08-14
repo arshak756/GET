@@ -10,23 +10,7 @@ export default function TheTeam() {
               The Team
             </h2>
             <p style={{ textAlign: "justify" }}>
-              At <strong>Guru Enviro Tech</strong>, our strength lies in our people.
-              We are a close-knit team of <strong>15 skilled professionals</strong> —
-              including microbiologists, agricultural engineers, field technicians,
-              and customer service specialists — united by a shared passion for
-              sustainable farming and environmental care.
-            </p>
-            <p style={{ textAlign: "justify" }}>
-              Our team’s diverse expertise combines <strong>technical proficiency,
-              problem-solving skills, and hands-on field experience</strong>, enabling
-              us to design and deliver <em>science-backed, farmer-friendly</em> solutions
-              that work in real-world conditions. From product formulation to on-site
-              application and aftercare, we provide complete end-to-end support.
-            </p>
-            <p style={{ textAlign: "justify" }}>
-              We believe in building <strong>long-term partnerships with farmers</strong>,
-              empowering them with knowledge, practical training, and reliable solutions
-              that improve productivity, animal welfare, and environmental health.
+              Guru Enviro Tech is powered by 15 skilled professionals including microbiologists, agricultural engineers, field technicians, and customer specialists, united by a passion for sustainable farming and environmental care. Our combined expertise and hands-on field experience enable us to create science-backed, farmer-friendly solutions that deliver real results. We work closely with farmers, offering training, ongoing support, and reliable solutions that enhance productivity, animal welfare, and environmental health.
             </p>
           </Col>
           <Col md={6}>

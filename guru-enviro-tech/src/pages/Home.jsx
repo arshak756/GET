@@ -1,17 +1,17 @@
 import Herosection from "../components/Home/Herosection";
 import AboutPreview from "../components/Home/AboutPreview";
-import FeaturedProducts from "../components/Home/FeaturedProducts";
 import SuccessStories from "../components/Home/SuccessStories";
-import FocusedAreas from "../components/Home/FocusedAreas";
+import HowItWorks from "../components/Home/HowItWorks";
 import WhyChooseUs from "../components/Home/WhyChooseUs";
 import { Container } from "react-bootstrap";
 
 export default function Home() {
   return (
-    <Container fluid> 
+    <Container fluid className=" bg-light"> 
       <Herosection />
       <AboutPreview />
       <WhyChooseUs />
+      <HowItWorks />
       <SuccessStories />
     </Container>
   );
