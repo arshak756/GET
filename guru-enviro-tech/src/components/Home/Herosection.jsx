@@ -1,64 +1,47 @@
-import { Container, Button, Carousel } from "react-bootstrap";
+import { Container, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 export default function HeroSection() {
   const navigate = useNavigate();
 
-  const slides = [
-    {
-      img: "/carousel-1.png",
-      title: "Revolutionizing Fly Control with Innovative Microbial Solutions",
-      
-    },
-    {
-      img: "/carousel-2.png",
-      title: "Sustainable Waste Management for Agriculture and Poultry Farms",
-     
-    },
-    {
-      img: "/carousel-3.png",
-      title: "Committed to Eco-Friendly Farming and Environmental Health",
-      
-    },
-  ];
+  const handleViewProducts = () => {
+    navigate("/products"); // ✅ Navigate to Products page
+  };
 
   return (
-    <section className=" ">
-      <Carousel
-        controls={false}
-        indicators
-        fade
-        pause={false}
-        interval={5000}
-        className="hero-carousel"
-      >
-        {slides.map(({ img, title, subtitle1, subtitle2 }, idx) => (
-          <Carousel.Item key={idx}>
-            <div
+    <section
+      style={{
+        height: "50vh",
+        background: `linear-gradient(rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)), url("/carousel-1.png") center/cover no-repeat`,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        textAlign: "center",
+        color: "white",
+      }}
+    >
+      <Container>
+        <h1 className="fw-bold display-3">GURU ENVIRO TECH</h1>
+
+        <p className="lead" style={{ maxWidth: "700px", margin: "0 auto" }}>
+          Revolutionizing fly control and sustainability in poultry farming with
+          innovative microbial solutions.
+        </p>
+
+        
+        <Button
+              variant="danger"
+               onClick={() => navigate("/featuredsolutions")}
+              className="mt-3"
               style={{
-                height: "55vh",
-                background: ` url(${img}) center/cover no-repeat`,
-                display: "flex",
-                alignItems: "center",
+                borderRadius: "30px",
+                padding: "8px 25px",
+                fontWeight: "500",
               }}
             >
-              <Container className="text-white">
-                <h1 className="fw-bold display-5 mb-3">{title}</h1>
-                <p className="lead mb-1">{subtitle1}</p>
-                <p className="lead mb-4">{subtitle2}</p>
-                <Button
-                  variant="primary"
-                  size="lg"
-                  className="px-4 py-2 rounded-pill"
-                  onClick={() => navigate("/featuredsolutions")}
-                >
-                  View Products
-                </Button>
-              </Container>
-            </div>
-          </Carousel.Item>
-        ))}
-      </Carousel>
+              View Products
+            </Button>
+      </Container>
     </section>
   );
 }

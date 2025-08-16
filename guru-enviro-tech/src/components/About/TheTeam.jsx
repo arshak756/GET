@@ -15,7 +15,7 @@ export default function TheTeam() {
           </Col>
           <Col md={6}>
              <img
-              src="/about-3.png" 
+              src="/About/about-3.png"
               alt="Our Work"
               style={{
                 width: "100%",

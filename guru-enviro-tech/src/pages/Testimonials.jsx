@@ -1,67 +1,97 @@
-import { Container, Row, Col, Card } from "react-bootstrap";
+import {Container, Row, Col, Card, Badge} from "react-bootstrap";
 
 export default function Testimonials() {
-  const testimonials = [
-    {
-      name: "Dhanya Poultry",
-      quote: "Guru Enviro Tech’s fly control completely changed our farm hygiene. We saw results in just weeks!",
-      image: "/images/dhanya.jpg", 
-    },
-    {
-      name: "Aishwariya Poultry",
-      quote: "Persistent fly problems vanished after using their solution. Our team and neighbors are happy again.",
-      image: "/images/aishwariya.jpg",
-    },
-    {
-      name: "Shanmuga Poultry",
-      quote: "Best long-term fly control we’ve ever used. No recurrence for months!",
-      image: "/images/shanmuga.jpg",
-    },
-    {
-      name: "Surya Poultry Farm",
-      quote: "From near shutdown to a clean, thriving farm — all thanks to Guru Enviro Tech.",
-      image: "/images/surya.jpg",
-    },
-  ];
+    const testimonials = [
+        {
+            name: "Dhanya Poultry",
+            location: "Erode, Tamil Nadu",
+            quote:
+                "Guru Enviro Tech’s fly control completely changed our farm hygiene. Within just a few weeks, the fly population reduced drastically. Our staff can now work comfortably, and even our egg quality improved as the environment became cleaner and safer.",
+            image: "testimonials/test-1.png",
+        },
+        {
+            name: "Aishwariya Poultry",
+            location: "Namakkal, Tamil Nadu",
+            quote:
+                "We had persistent fly problems for years. After using their microbial solution, not only did the flies vanish, but the manure also became easier to manage. Our neighbors, who earlier complained about odor and flies, are now happy with the results.",
+            image: "testimonials/test-2.png",
+        },
+        {
+            name: "Shanmuga Poultry",
+            location: "Salem, Tamil Nadu",
+            quote:
+                "This is the best long-term fly control we have ever used. It’s natural, safe for our birds, and highly effective. Months have passed and we haven’t seen a recurrence, making this a reliable solution for our farm operations.",
+            image: "testimonials/test-1.png",
+        },
+        {
+            name: "Surya Poultry Farm",
+            location: "Karur, Tamil Nadu",
+            quote:
+                "We were close to shutting down due to severe fly infestations and odor complaints. Guru Enviro Tech’s solution gave us a fresh start. Today, our farm runs smoothly, productivity has increased, and we are proud to maintain a clean farm environment.",
+            image: "testimonials/test-1.png",
+        },
+    ];
 
-  return (
-    <section className="py-5">
-      <Container>
-        <h2 className=" text-center mb-5" style={{ color: "var(--primary-red)" }}>
-          What Our Farmers Say
-        </h2>
-        <Row className="g-4">
-          {testimonials.map((t, index) => (
-            <Col md={6} lg={3} key={index}>
-              <Card className="h-100 shadow-sm border-0 rounded-4 text-center p-3">
-                <div
-                  style={{
-                    height: "150px",
-                    backgroundColor: "#e9ecef",
-                    borderRadius: "8px",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    overflow: "hidden",
-                  }}
+    return (
+        <section className="py-5" style={{backgroundColor: "#f8fafc"}}>
+            <Container>
+                <h2
+                    className="text-center mb-5"
+                    style={{color: "#bb141a", fontWeight: "700", fontSize: "2.3rem"}}
                 >
-                  {t.image ? (
-                    <img src={t.image} alt={t.name} className="img-fluid" />
-                  ) : (
-                    <span className="text-muted">Image Coming Soon</span>
-                  )}
-                </div>
-                <Card.Body>
-                  <h5 className="fw-bold text-primary">{t.name}</h5>
-                  <p className="mt-2" style={{ fontStyle: "italic", fontSize: "0.95rem" }}>
-                    "{t.quote}"
-                  </p>
-                </Card.Body>
-              </Card>
-            </Col>
-          ))}
-        </Row>
-      </Container>
-    </section>
-  );
+                    What Our Farmers Say
+                </h2>
+
+                <Row className="g-4">
+                    {testimonials.map((t, index) => (
+                        <Col md={6} lg={6} key={index}>
+                            <Card
+                                className="h-100 border-0 shadow-sm rounded-4 p-4"
+                                style={{backgroundColor: "#ffffff"}}
+                            >
+                                {/* Farmer Info */}
+                                <div className="d-flex align-items-center mb-3">
+                                    <img
+                                        src={t.image}
+                                        alt={t.name}
+                                        style={{
+                                            width: 70,
+                                            height: 70,
+                                            borderRadius: "50%",
+                                            objectFit: "cover",
+                                            boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+                                            marginRight: "15px",
+                                        }}
+                                    />
+                                    <div>
+                                        <h5
+                                            style={{fontWeight: "600", marginBottom: "5px"}}
+                                        >
+                                            {t.name}
+                                        </h5>
+                                        <Badge bg="light" text="dark">
+                                            {t.location}
+                                        </Badge>
+                                    </div>
+                                </div>
+
+                                {/* Testimonial */}
+                                <blockquote
+                                    style={{
+                                        fontStyle: "italic",
+                                        fontSize: "1rem",
+                                        lineHeight: "1.6rem",
+                                        color: "#444",
+                                    }}
+                                >
+                                    “{t.quote}”
+                                </blockquote>
+
+                            </Card>
+                        </Col>
+                    ))}
+                </Row>
+            </Container>
+        </section>
+    );
 }

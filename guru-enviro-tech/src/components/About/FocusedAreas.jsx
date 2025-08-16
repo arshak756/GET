@@ -29,7 +29,7 @@ export default function FocusedAreas() {
           </Col>
           <Col md={6} className="order-md-1">
             <img
-              src="/about-4.png" 
+              src="/About/about-4.png"
               alt="Our Work"
               style={{
                 width: "100%",

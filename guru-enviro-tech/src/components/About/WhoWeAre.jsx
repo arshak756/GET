@@ -3,6 +3,17 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function WhoWeAreSection() {
   return (
     <section className="py-5">
+      <div className="text-center mb-5">
+          <h1
+            style={{
+              color: "var(--primary-red)",
+              fontWeight: "700",
+              marginBottom: "15px",
+            }}
+          >
+            About Guru Enviro Tech
+          </h1>
+          </div>
       <Container>
         <Row className="align-items-center g-5">
           <Col md={6}>
@@ -22,7 +33,7 @@ export default function WhoWeAreSection() {
           </Col>
           <Col md={6}>
             <img
-              src="/who-we-are.jpg" // ✅ Image from public folder
+              src="/About/about-1.png"
               alt="Who We Are"
               style={{
                 width: "100%",

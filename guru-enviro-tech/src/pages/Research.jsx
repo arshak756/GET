@@ -39,19 +39,20 @@ export default function Research() {
 
           <Row className="align-items-center mb-5 flex-md-row-reverse g-5">
             <Col md={6}>
-              <div
-                style={{
-                  height: "300px",
-                  backgroundColor: "#e9ecef",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  borderRadius: "8px",
-
-                  color: "#6c757d",
-                }}
-              >
-                Image Coming Soon
+              <div>
+              <img
+              src="/research-2.png" 
+              alt="Our Work"
+              style={{
+                width: "100%",
+                height: "300px",
+                objectFit: "cover",
+                borderRadius: "8px",
+                
+              }}
+              ></img>
+              
+                
               </div>
             </Col>
             <Col md={6}>
