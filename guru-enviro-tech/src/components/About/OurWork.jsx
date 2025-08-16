@@ -15,7 +15,7 @@ export default function OurWork() {
           </Col>
           <Col md={6} className="order-md-1">
             <img
-              src="/About/about-2.png"
+              src="/about-2.png"
               alt="Our Work"
               style={{
                 width: "100%",
