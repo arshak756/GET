@@ -33,7 +33,7 @@ export default function WhoWeAreSection() {
           </Col>
           <Col md={6}>
             <img
-              src="/about-1.png"
+              src="/About/about-1.png"
               alt="Who We Are"
               style={{
                 width: "100%",
