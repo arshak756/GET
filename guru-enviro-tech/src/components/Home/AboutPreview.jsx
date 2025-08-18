@@ -38,7 +38,7 @@ export default function AboutPreview() {
           </Col>
           <Col md={5}>
             <img
-              src="/who.png"
+              src="/who/who.png"
               alt="Our Mission"
               className="img-fluid rounded shadow"
               style={{ maxHeight: "350px", objectFit: "cover" }}

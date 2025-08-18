@@ -5,7 +5,7 @@ export default function OurWork() {
     <section className="py-5">
       <Container>
         <Row className="align-items-center g-5">
-          <Col md={6} className="order-md-2">
+          <Col md={6}  className="order-md-2 ps-md-4">
             <h2 style={{ color: "var(--primary-blue)", fontWeight: "700" }}>
               Our Work
             </h2>
@@ -13,9 +13,9 @@ export default function OurWork() {
               Since 2018, Guru Enviro Tech has been delivering innovative microbial solutions for agriculture and poultry, specializing in fly control, sanitation, and waste management. Our eco-friendly products — including biofertilizers, EM solutions, decomposers, and pest control — restore ecological balance, improve productivity, and safeguard livestock health. Implemented in 200+ farms across multiple states, our solutions achieve 98.6% fly control efficiency and 96% eco-friendliness. Every project is backed by assessment, tailored solutions, training, and ongoing support for long-lasting results.
             </p>
           </Col>
-          <Col md={6} className="order-md-1">
+          <Col md={6} className="order-md-1 pe-md-4">
             <img
-              src="/about-2.png"
+              src="/about/about-2.png"
               alt="Our Work"
               style={{
                 width: "100%",

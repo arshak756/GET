@@ -5,14 +5,14 @@ export default function HeroSection() {
   const navigate = useNavigate();
 
   const handleViewProducts = () => {
-    navigate("/products"); // ✅ Navigate to Products page
+    navigate("/products");
   };
 
   return (
     <section
       style={{
         height: "50vh",
-        background: `linear-gradient(rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)), url("/carousel-1.png") center/cover no-repeat`,
+        background: `linear-gradient(rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)), url("/heroimage/heroimage.png") center/cover no-repeat`,
         display: "flex",
         alignItems: "center",
         justifyContent: "center",

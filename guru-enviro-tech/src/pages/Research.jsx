@@ -12,7 +12,7 @@ export default function Research() {
           <Row className="align-items-center mb-5 g-5">
             <Col md={6}>
               <img
-              src="/research-1.png" 
+              src="/research/research-1.png"
               alt="Our Work"
               style={{
                 width: "100%",
@@ -41,7 +41,7 @@ export default function Research() {
             <Col md={6}>
               <div>
               <img
-              src="/research-2.png" 
+              src="/research/research-2.png"
               alt="Our Work"
               style={{
                 width: "100%",
@@ -70,7 +70,7 @@ export default function Research() {
           <Row className="align-items-center mb-5 g-5">
             <Col md={6}>
              <img
-              src="/research-3.png" 
+              src="/research/research-3.png"
               alt="Our Work"
               style={{
                 width: "100%",

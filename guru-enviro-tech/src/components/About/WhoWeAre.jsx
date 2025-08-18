@@ -16,7 +16,7 @@ export default function WhoWeAreSection() {
           </div>
       <Container>
         <Row className="align-items-center g-5">
-          <Col md={6}>
+          <Col md={6} className="pe-md-4">
             <h2 style={{ color: "var(--primary-blue)", fontWeight: "700" }}>
               Who We Are
             </h2>
@@ -31,17 +31,18 @@ export default function WhoWeAreSection() {
               communities.
             </p>
           </Col>
-          <Col md={6}>
-            <img
-              src="/about-1.png"
-              alt="Who We Are"
-              style={{
-                width: "100%",
-                height: "300px",
-                objectFit: "cover",
-                borderRadius: "8px",
-              }}
-            />
+          <Col md={6} className="ps-md-4">
+              <img
+                  src="/about/about-3.png"
+                  alt="Our Work"
+                  style={{
+                      width: "100%",
+                      height: "300px",
+                      objectFit: "cover",
+                      borderRadius: "8px",
+
+                  }}
+              ></img>
           </Col>
         </Row>
       </Container>
